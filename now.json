@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "build": {
+        "src": "server.js",
+        "use": "@now/node-server"
+    },
+
+    "routes": [{
+            "src": "/notes",
+            "dest": "server.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/api/notes",
+            "dest": "server.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/api/notes",
+            "dest": "server.js",
+            "methods": ["POST"]
+        },
+        {
+            "src": "/api/notes/:id",
+            "dest": "server.js",
+            "methods": ["DELETE"]
+        }
+    ]
+}
