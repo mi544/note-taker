@@ -15,7 +15,7 @@ Create an application that can be used to write, save, and delete notes.
 * Allows creating and saving notes
 * Allows viewing previously stored notes
 * Allows to delete previously stored notes
-* Uses an [express](https://www.npmjs.com/package/express) backend
+* Uses an [Express](https://www.npmjs.com/package/express) backend
 * Connects to an existing frontend
 * Retrieves note data from a JSON file
 
