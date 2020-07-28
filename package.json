@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "pre-deploy": "node deleteLastDeploy.js",
-    "deploy": "npm run pre-deploy && now --public && now alias",
+    "pre-deploy": "npm start",
+    "deploy": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
